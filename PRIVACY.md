@@ -1,0 +1,114 @@
+# Privacy Policy
+
+**LitRank — Journal Quartiles & Research Projects**
+Effective 1 August 2026 · Applies to the Chrome, Edge and Firefox extensions
+
+---
+
+## The short version
+
+**LitRank has no server.** There is no account, no login, no sync service and no analytics. Nothing you search for, read, or save is transmitted to us, because there is nowhere for it to go. We could not see your reading list if we wanted to.
+
+Everything the extension needs to put a quartile badge on a search result is already inside the extension when you install it. The lookup happens on your own machine.
+
+---
+
+## What LitRank stores
+
+| What | Where | Who can read it |
+|---|---|---|
+| Papers you save, and the projects you file them under | Your browser's local extension storage, on your device | You, and any extension-inspection tool you run yourself |
+| Your filter and sort preferences | The same | The same |
+| A pointer to a sync folder, if you choose one | The same | The same |
+
+That is the complete list. There is no hidden identifier, no install ID, no fingerprint and no usage counter.
+
+If you have enabled your browser's own extension-data sync (a browser feature, not ours), your browser may replicate this storage across your signed-in devices under **its** privacy policy, not this one.
+
+---
+
+## What LitRank sends, and when
+
+By default, **nothing**. Two features make a network request, and both require you to press a button first:
+
+### 1. Fetch metadata
+
+When you press **Fetch metadata** on a project, LitRank asks [Crossref](https://www.crossref.org/) to complete the citation details of the papers in that project — volume, issue, pages, DOI.
+
+- **What is sent:** the DOI, or the title, authors and venue, of the papers in *that project only*
+- **What is not sent:** your identity, your other projects, your search history, or anything about your browsing
+- The request carries a fixed contact address that identifies **the extension**, as Crossref asks API users to do. It is not your email address, and it is the same for every LitRank user.
+- Crossref handles the request under [its own privacy policy](https://www.crossref.org/operations-and-sustainability/privacy/)
+
+### 2. Download PDFs
+
+When you press **Download PDFs**, LitRank fetches the PDF links that Google Scholar itself showed you, from the publishers hosting them. Those publishers see an ordinary download, exactly as if you had clicked each link yourself. Nothing is routed through us.
+
+Because these links point to arbitrary publisher domains, this feature asks for broad site access **at the moment you first use it**. Decline it and the rest of the extension works normally. Grant it and you can revoke it at any time from your browser's extension settings.
+
+---
+
+## What LitRank never does
+
+- ❌ No analytics, telemetry, crash reporting or usage statistics
+- ❌ No advertising, and no advertising identifiers
+- ❌ No selling, renting or sharing of data — there is no data held to sell
+- ❌ No tracking across sites; the extension runs only on Google Scholar pages and its own dashboard
+- ❌ No reading, storing or transmitting of anything on non-Scholar pages you visit
+- ❌ No use of your data to train anything
+
+LitRank's use of any information is limited to providing and improving the features you can see. It is never transferred to a third party except as described above, and never used for advertising, creditworthiness, or lending purposes.
+
+---
+
+## Permissions, and why each one exists
+
+| Permission | Why |
+|---|---|
+| Access to Google Scholar pages | To place badges and the filter bar on results, profiles and Labs pages. This is the extension's entire purpose. |
+| `storage`, `unlimitedStorage` | To keep your saved papers and projects on your device. A long reading list exceeds the small default quota. |
+| `downloads` | To save exports (BibTeX, CSV, JSON) and PDFs to your computer. |
+| `api.crossref.org` | Only for **Fetch metadata**, above. |
+| Broad site access (optional) | Requested only if you use **Download PDFs**, and only then. Not granted at install. |
+
+The extension asks for nothing at install time beyond the Scholar domains it works on.
+
+---
+
+## Folder sync
+
+If you choose **Choose folder**, your browser shows you its own folder picker and you decide what LitRank may write to. The extension receives access to that one folder and nothing else. Your browser can revoke that access at any time, and does so on its own schedule. Files are written by your browser directly to your disk — they do not pass through any server.
+
+---
+
+## Your data, your control
+
+- **Export it:** BibTeX, CSV or JSON, from any project, at any time.
+- **Delete some of it:** remove a paper or delete a project from the dashboard.
+- **Delete all of it:** uninstalling the extension removes its storage. Nothing is retained anywhere else, because nothing was sent anywhere else.
+
+There is no "request my data" process, because there is no copy of your data for us to hold. Requests under GDPR, CCPA or similar laws have nothing to retrieve — which is the point.
+
+---
+
+## Children
+
+LitRank collects no personal information from anyone, of any age.
+
+---
+
+## Changes to this policy
+
+If this policy ever changes, the revised version will be published here with a new effective date, and material changes will be noted in the extension's release notes. Continuing to use LitRank after a change means the new policy applies.
+
+---
+
+## Contact
+
+Questions about this policy, or about anything the extension does:
+
+**[Open an issue](https://github.com/riponcm/LitRank/issues/new)** · [github.com/riponcm/LitRank](https://github.com/riponcm/LitRank)
+
+---
+
+<sub>LitRank is an independent project and is not affiliated with, endorsed by, or sponsored by Google. Google Scholar is a trademark of Google LLC.</sub>

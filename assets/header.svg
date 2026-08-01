@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="LitRank — journal quartiles and research projects for Google Scholar">
+  <title>LitRank</title>
+  <desc>Journal quartiles, SJR metrics and research projects, on Google Scholar.</desc>
+
+  <style>
+    /* Animation runs from a CSS keyframe rather than SMIL: GitHub serves this
+       file through its image proxy, where scripts never run but CSS does. */
+    .rise { transform-origin: 0 236px; animation: rise 7s cubic-bezier(.22,1,.36,1) infinite; }
+    .r2 { animation-delay: .12s; }
+    .r3 { animation-delay: .24s; }
+    .r4 { animation-delay: .36s; }
+    @keyframes rise {
+      0%   { transform: scaleY(.04); opacity: .25; }
+      14%  { transform: scaleY(1);   opacity: 1; }
+      82%  { transform: scaleY(1);   opacity: 1; }
+      96%  { transform: scaleY(.04); opacity: .25; }
+      100% { transform: scaleY(.04); opacity: .25; }
+    }
+
+    /* No `opacity: 0` base state. If a renderer ignores CSS animation — some
+       markdown viewers and feed readers do — an element that starts hidden
+       stays hidden forever, so the wordmark would simply never appear. Base
+       state is the visible one; the keyframe dips away from it. */
+    .fade { animation: fade 7s ease-out infinite; }
+    .f2 { animation-delay: .18s; }
+    .f3 { animation-delay: .3s; }
+    @keyframes fade {
+      0%   { opacity: 0; transform: translateY(9px); }
+      12%  { opacity: 1; transform: translateY(0); }
+      86%  { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(0); }
+    }
+
+    .pulse { animation: pulse 7s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .16; } 50% { opacity: .34; } }
+
+    /* Anyone who has asked their system to stop moving things gets a still. */
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .fade, .pulse { animation: none; opacity: 1; transform: none; }
+    }
+
+    .word { font: 600 64px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .tag  { font: 400 22px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .chip { font: 600 15px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12325e"/>
+      <stop offset="0.55" stop-color="#164483"/>
+      <stop offset="1" stop-color="#0d2b52"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#sky)"/>
+    <rect width="1200" height="150" fill="url(#sheen)"/>
+
+    <!-- Faint column rhythm, echoing the quartile bars. -->
+    <g class="pulse" fill="#ffffff" opacity="0.2">
+      <rect x="880" y="0" width="1" height="300"/>
+      <rect x="960" y="0" width="1" height="300"/>
+      <rect x="1040" y="0" width="1" height="300"/>
+      <rect x="1120" y="0" width="1" height="300"/>
+    </g>
+
+    <!-- The mark, drawn at the same 5-unit grid as the icon files. -->
+    <g transform="translate(72,86) scale(2)">
+      <rect width="64" height="64" rx="15" fill="#0f3a72"/>
+      <rect x="27" y="27" width="10" height="25" rx="5" fill="#8ec0f5"/>
+      <rect x="42" y="34" width="10" height="18" rx="5" fill="#5b93de"/>
+      <rect x="12" y="12" width="10" height="40" rx="5" fill="#fff"/>
+      <rect x="12" y="42" width="40" height="10" rx="5" fill="#fff"/>
+    </g>
+
+    <text class="word fade" x="236" y="146" fill="#ffffff">LitRank</text>
+    <!-- Pinned too, for the same reason: an unlucky font substitution could
+         otherwise run this line into the bar chart at x=856. -->
+    <text class="tag fade f2" x="240" y="184" fill="#a8c9f2"
+          textLength="566" lengthAdjust="spacingAndGlyphs">Journal quartiles &amp; research projects for Google Scholar</text>
+
+    <!-- Chip widths were guessed at first and every label overflowed its pill.
+         SVG cannot size a box to its text, and the rendering font is whatever
+         the viewer's system substitutes, so the metrics are unknowable at
+         author time. `textLength` with `lengthAdjust="spacingAndGlyphs"` makes
+         the label fit the box exactly on every machine; widths below are set
+         proportional to character count so the adjustment stays imperceptible.
+         Text is centred, so any residual difference is symmetric. -->
+    <g class="fade f3">
+      <g transform="translate(236,204)">
+        <rect width="132" height="30" rx="15" fill="#ffffff" fill-opacity="0.1"/>
+        <text class="chip" x="66" y="20" fill="#dce9f8" text-anchor="middle"
+              textLength="100" lengthAdjust="spacingAndGlyphs">SJR quartiles</text>
+      </g>
+      <g transform="translate(378,204)">
+        <rect width="164" height="30" rx="15" fill="#ffffff" fill-opacity="0.1"/>
+        <text class="chip" x="82" y="20" fill="#dce9f8" text-anchor="middle"
+              textLength="132" lengthAdjust="spacingAndGlyphs">Research projects</text>
+      </g>
+      <g transform="translate(552,204)">
+        <rect width="132" height="30" rx="15" fill="#ffffff" fill-opacity="0.1"/>
+        <text class="chip" x="66" y="20" fill="#dce9f8" text-anchor="middle"
+              textLength="100" lengthAdjust="spacingAndGlyphs">BibTeX export</text>
+      </g>
+      <g transform="translate(694,204)">
+        <rect width="132" height="30" rx="15" fill="#ffffff" fill-opacity="0.1"/>
+        <text class="chip" x="66" y="20" fill="#dce9f8" text-anchor="middle"
+              textLength="100" lengthAdjust="spacingAndGlyphs">Works offline</text>
+      </g>
+    </g>
+
+    <!-- Q1 tallest through Q4 shortest, the same ordinal ramp the badges use. -->
+    <g>
+      <rect class="rise"    x="872" y="76"  width="46" height="160" rx="10" fill="#ffffff"/>
+      <rect class="rise r2" x="952" y="112" width="46" height="124" rx="10" fill="#a8c9f2"/>
+      <rect class="rise r3" x="1032" y="150" width="46" height="86"  rx="10" fill="#6ea4e8"/>
+      <rect class="rise r4" x="1112" y="184" width="46" height="52"  rx="10" fill="#3f74bd"/>
+      <rect x="856" y="240" width="318" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.34"/>
+      <g class="chip fade f3" fill="#a8c9f2">
+        <text x="884" y="268">Q1</text>
+        <text x="964" y="268">Q2</text>
+        <text x="1044" y="268">Q3</text>
+        <text x="1124" y="268">Q4</text>
+      </g>
+    </g>
+  </g>
+</svg>

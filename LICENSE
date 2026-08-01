@@ -1,0 +1,25 @@
+Copyright (c) 2026 Matily.org
+
+The contents of this repository — the documentation, screenshots and images —
+are licensed under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate if changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:           https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------------------------
+
+THIS LICENCE COVERS THIS REPOSITORY ONLY.
+
+It does not cover the LitRank extension itself. The extension's source code will
+be released separately under the GNU General Public License v3.0. Third-party
+data and assets bundled with the extension keep their own licences, recorded in
+the NOTICE file distributed inside the extension package; some of that material
+is restricted to non-commercial use.
+
+The LitRank name and logo are not licensed for use in a way that implies
+endorsement by, or affiliation with, this project.
