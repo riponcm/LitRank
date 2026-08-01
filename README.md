@@ -54,7 +54,7 @@ On an author profile, the same badges appear per publication, plus a distributio
 
 ### Projects, not a single flat reading list
 
-<img src="screenshots/03-projects.png" alt="The LitRank dashboard showing eleven research project cards, each with an icon, colour, paper count, quartile distribution bar and median SJR" width="100%">
+<img src="screenshots/03-projects.png" alt="The LitRank dashboard showing eleven research project cards, each with an icon, colour, paper count, quartile distribution bar and median SJR, beside a sidebar with the version, the Matily.org credit and links to support and issue reporting" width="100%">
 
 Each project has its own icon, colour and description, and shows at a glance how many papers it holds, how they are distributed across quartiles, and their median SJR. A paper can belong to several projects at once.
 
