@@ -1,3 +1,7 @@
 # Store upload artwork is regenerable and belongs in the listing, not here:
 #   node tools/build-listing-assets.mjs
 store/
+
+# Full-page renders used to review the landing page while building it.
+# Working artefacts, not deliverables: node tools/shoot-landing.mjs remakes them.
+site/preview/
