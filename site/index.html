@@ -47,13 +47,15 @@
       "@type": "SoftwareApplication",
       "@id": "https://matily.org/litrank/#app",
       "name": "LitRank",
-      "alternateName": "LitRank — Journal Quartiles & Projects",
+      "alternateName": "LitRank — Journal Quartiles for Google Scholar",
       "description": "Browser extension that adds SJR journal quartiles, impact scores, open-access status and citation rates to Google Scholar search results and author profiles, and organises saved papers into research projects with BibTeX, CSV and JSON export.",
       "applicationCategory": "BrowserApplication",
       "applicationSubCategory": "Reference Management",
-      "operatingSystem": "Chrome, Microsoft Edge, Firefox",
+      "operatingSystem": "Chrome",
       "url": "https://matily.org/litrank/",
-      "softwareVersion": "1.4.3",
+      "installUrl": "https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab",
+      "downloadUrl": "https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab",
+      "softwareVersion": "1.4.4",
       "isAccessibleForFree": true,
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
       "featureList": [
@@ -289,6 +291,16 @@
   .btn svg { width: 18px; height: 18px; }
   .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: color-mix(in srgb, var(--brand) 40%, var(--line)); }
   .btn-primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+  /* Not yet installable. Styled as a statement rather than a dead link — a
+     button that looks pressable and does nothing is worse than one that
+     plainly is not ready. */
+  .btn-soon {
+    background: transparent; color: var(--muted);
+    border-style: dashed; cursor: default;
+  }
+  .btn-soon:hover { transform: none; box-shadow: none; border-color: var(--line); }
+  .btn-soon svg { opacity: .6; }
   @media (prefers-color-scheme: dark) { .btn-primary { color: #0b1220; } }
 
   .trust { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 22px; color: var(--muted); font-size: 14px; }
@@ -487,7 +499,7 @@
     <div>
       <span class="eyebrow reveal in">
         <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#184f95"/><rect x="27" y="27" width="10" height="25" rx="5" fill="#8ec0f5"/><rect x="42" y="34" width="10" height="18" rx="5" fill="#5b93de"/><rect x="12" y="12" width="10" height="40" rx="5" fill="#fff"/><rect x="12" y="42" width="40" height="10" rx="5" fill="#fff"/></svg>
-        A Matily project · Free forever
+        Now on the Chrome Web Store · Free forever
       </span>
 
       <h1>See <em>journal quality</em> on Google&nbsp;Scholar.</h1>
@@ -500,18 +512,18 @@
       </p>
 
       <div class="cta">
-        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/CHROME_EXTENSION_ID" rel="noopener">
+        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 1 8.66 5H12a5 5 0 0 0-4.9 4L4.2 6.06A10 10 0 0 1 12 2Zm-9.2 5.9L7 14.9A5 5 0 0 0 12 17c.3 0 .6 0 .87-.07L9.1 21.6A10 10 0 0 1 2.8 7.9ZM22 12a10 10 0 0 1-10.2 10l4.3-7.5A5 5 0 0 0 17 12a5 5 0 0 0-.6-2.4h5.2c.3.8.4 1.6.4 2.4Z"/></svg>
-          Add to Chrome
+          Add to Chrome — free
         </a>
-        <a class="btn" href="https://microsoftedge.microsoft.com/addons/detail/EDGE_EXTENSION_ID" rel="noopener">
+        <span class="btn btn-soon">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c5 0 9 3.4 9.7 8-3.6-2.3-8-2.6-11 .1-1.4 1.3-1.6 3-.7 4.2-1.6-.6-2.8-2-3.2-3.7C5.4 5.4 8.4 2 12 2Zm9.6 11.8C20.6 18.5 16.7 22 12 22c-3 0-5.6-1.4-7.3-3.6 3 1.8 7.3 1.9 10.4-.2 2-1.4 2.5-3.3 1.6-4.7 1.7.1 3.4.6 4.9 1.3Z"/></svg>
-          Edge
-        </a>
-        <a class="btn" href="https://addons.mozilla.org/firefox/addon/litrank/" rel="noopener">
+          Edge — in review
+        </span>
+        <span class="btn btn-soon">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10c0-1.6-.4-3.1-1-4.4.2 1.6-.6 2.6-1.4 2.3-.7-.3-.5-1.6-1.6-2.9-1.4-1.7-3.4-1.8-4.9-1.2 1.6.2 2.7 1 3.1 2-2.6-.9-5.3-.2-6.7 1.6-1 1.3-1 3 .1 4.3 1.4 1.6 3.9 1.8 5.6.5-1.9.4-3.4-.3-4-1.4-.5-1 0-2.1 1-2.5-.3 1 .2 1.9 1.2 2.2 1.7.5 3.4-.5 3.9-2.2.4-1.4 0-2.8-1-3.8A8 8 0 0 1 20 12a8 8 0 1 1-8-8Z"/></svg>
-          Firefox
-        </a>
+          Firefox — in review
+        </span>
       </div>
 
       <div class="trust">
@@ -810,9 +822,9 @@
       <h2>Stop judging papers by citation count alone.</h2>
       <p>Install it once. The next time you search Google Scholar, you will know where everything was published.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/CHROME_EXTENSION_ID" rel="noopener">Add to Chrome — free</a>
-        <a class="btn" href="https://microsoftedge.microsoft.com/addons/detail/EDGE_EXTENSION_ID" rel="noopener">Edge</a>
-        <a class="btn" href="https://addons.mozilla.org/firefox/addon/litrank/" rel="noopener">Firefox</a>
+        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab" rel="noopener">Add to Chrome — free</a>
+        <span class="btn btn-soon">Edge — in review</span>
+        <span class="btn btn-soon">Firefox — in review</span>
       </div>
     </div>
   </div>

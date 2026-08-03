@@ -11,48 +11,37 @@ Works offline. No account. No tracking.
 
 <br>
 
-<!-- PRE-LAUNCH BADGES — swap for the block below once the store IDs exist. -->
-[![Chrome](https://img.shields.io/badge/Chrome-in%20review-1a73e8?logo=googlechrome&logoColor=white)](https://github.com/riponcm/LitRank)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cfbmlenlhndbgojgikgoneolkbiajoab?label=Chrome&logo=googlechrome&logoColor=white&color=1a73e8)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
+[![Users](https://img.shields.io/chrome-web-store/users/cfbmlenlhndbgojgikgoneolkbiajoab?label=users&color=184f95)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
+[![Rating](https://img.shields.io/chrome-web-store/rating/cfbmlenlhndbgojgikgoneolkbiajoab?label=rating&color=184f95)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
 [![Edge](https://img.shields.io/badge/Edge-in%20review-0078D7?logo=microsoftedge&logoColor=white)](https://github.com/riponcm/LitRank)
 [![Firefox](https://img.shields.io/badge/Firefox-in%20review-ff7139?logo=firefoxbrowser&logoColor=white)](https://github.com/riponcm/LitRank)
 [![Price](https://img.shields.io/badge/price-free%20forever-184f95)](https://github.com/riponcm/LitRank)
-[![Stars](https://img.shields.io/github/stars/riponcm/LitRank?style=flat&logo=github&label=star%20the%20repo&color=184f95)](https://github.com/riponcm/LitRank/stargazers)
+[![Stars](https://img.shields.io/github/stars/riponcm/LitRank?style=flat&logo=github&label=star&color=184f95)](https://github.com/riponcm/LitRank/stargazers)
 
-[**Watch this repo**](https://github.com/riponcm/LitRank/subscription) &nbsp;·&nbsp;
-[**Star it**](https://github.com/riponcm/LitRank) &nbsp;·&nbsp;
+### [**⬇ Install for Chrome**](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
+
+Edge and Firefox are in review &nbsp;·&nbsp;
+[Watch for the release](https://github.com/riponcm/LitRank/subscription) &nbsp;·&nbsp;
 [Report an issue](https://github.com/riponcm/LitRank/issues/new)
-
-<!-- LAUNCH BADGES — uncomment this block and delete the one above.
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/CHROME_EXTENSION_ID?label=Chrome&logo=googlechrome&logoColor=white&color=1a73e8)](https://chromewebstore.google.com/detail/CHROME_EXTENSION_ID)
-[![Chrome users](https://img.shields.io/chrome-web-store/users/CHROME_EXTENSION_ID?label=users&color=184f95)](https://chromewebstore.google.com/detail/CHROME_EXTENSION_ID)
-[![Chrome rating](https://img.shields.io/chrome-web-store/rating/CHROME_EXTENSION_ID?label=rating&color=184f95)](https://chromewebstore.google.com/detail/CHROME_EXTENSION_ID)
-[![Firefox Add-on](https://img.shields.io/amo/v/litrank?label=Firefox&logo=firefoxbrowser&logoColor=white&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank/)
-[![Firefox users](https://img.shields.io/amo/users/litrank?label=users&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank/)
-[![Edge Add-on](https://img.shields.io/badge/Edge-available-0078D7?logo=microsoftedge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/EDGE_EXTENSION_ID)
-[![Stars](https://img.shields.io/github/stars/riponcm/LitRank?style=flat&logo=github&label=star%20the%20repo&color=184f95)](https://github.com/riponcm/LitRank/stargazers)
-
-[**Install for Chrome**](https://chromewebstore.google.com/detail/CHROME_EXTENSION_ID) &nbsp;·&nbsp;
-[**Edge**](https://microsoftedge.microsoft.com/addons/detail/EDGE_EXTENSION_ID) &nbsp;·&nbsp;
-[**Firefox**](https://addons.mozilla.org/firefox/addon/litrank/) &nbsp;·&nbsp;
-[Report an issue](https://github.com/riponcm/LitRank/issues/new)
--->
 
 </div>
 
 <!-- ============================================================ PRE-LAUNCH
-     Delete everything between this marker and the closing marker on the day
-     the store listings go live. Nothing else in this file depends on it.
+     A rolling launch state: Chrome is live, Edge and Firefox are not. Update
+     the heading as each store lands, and delete this whole block once all
+     three are out. Nothing else in this file depends on it.
 ============================================================================ -->
 
 <div align="center">
 
-## 🚧 &nbsp;Coming soon
+## ✅ &nbsp;Live on the Chrome Web Store
 
-### **LitRank is built and tested. It is going to the stores now.**
+### **[Install LitRank for Chrome →](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)**
 
-Packaged for **Chrome**, **Edge** and **Firefox**, and waiting on review — each store
-takes its own time, usually a few days to a couple of weeks. This page will say
-*Install* the moment it can.
+Approved and available now. **Edge** and **Firefox** are packaged and in review —
+each store runs on its own schedule, usually a few days to a couple of weeks.
+This page will link them the moment they land.
 
 **The extension is real, and so are the numbers.** Every quartile and impact score in
 the screenshots below was looked up from the actual ranking data the extension ships
@@ -61,12 +50,13 @@ they sit in are real, and so are their ranks.
 
 <br>
 
-### Want it the moment it lands?
+### On Edge or Firefox?
 
-**[⭐ Star this repo](https://github.com/riponcm/LitRank)** &nbsp;·&nbsp; **[👁 Watch for releases](https://github.com/riponcm/LitRank/subscription)**
+**[👁 Watch for releases](https://github.com/riponcm/LitRank/subscription)** &nbsp;·&nbsp; **[⭐ Star the repo](https://github.com/riponcm/LitRank)**
 
-Watching with *Releases only* sends you one notification on launch day and nothing else.
-Starring is what makes the store listings surface for other researchers — it genuinely helps.
+Watching with *Releases only* is one notification when your browser's version lands,
+and nothing else. Starring is what makes the store listings surface for other
+researchers — it genuinely helps.
 
 <br>
 
