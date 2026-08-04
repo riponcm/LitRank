@@ -168,7 +168,7 @@ LitRank sends **nothing** as you browse.
 - No analytics, no telemetry, no tracking of any kind
 - The only outbound request is to **Crossref**, and only when you press *Fetch metadata*
 
-Full policy: [PRIVACY.md](https://gist.github.com/riponcm/5fcbf83fb266dc082a73006defcb4d52)
+Full policy: [PRIVACY.md](PRIVACY.md)
 
 ---
 

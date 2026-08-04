@@ -1,3 +1,10 @@
+<!-- This file is the canonical privacy policy. A mirror is published as a
+     public gist because the store listings were registered against that URL
+     while this repository was still private:
+     https://gist.github.com/riponcm/5fcbf83fb266dc082a73006defcb4d52
+     Any change here has to be made there too, or the policy a reviewer reads
+     stops matching the policy users read. -->
+
 # Privacy Policy
 
 **LitRank — Journal Quartiles & Research Projects**

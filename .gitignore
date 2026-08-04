@@ -1,7 +1,12 @@
-# Store upload artwork is regenerable and belongs in the listing, not here:
-#   node tools/build-listing-assets.mjs
-store/
-
-# Full-page renders used to review the landing page while building it.
-# Working artefacts, not deliverables: node tools/shoot-landing.mjs remakes them.
-site/preview/
+# This directory IS the public repository — README, privacy policy, licence
+# and the screenshots the README shows. Nothing else belongs here.
+#
+# Build output lives outside it, one level up, so a build can never queue
+# something for the next push:
+#
+#   ../store/    store artwork and the plaintext privacy policy for AMO
+#   ../site/     the matily.org/litrank/ landing page
+#   ../promo/    the promo video
+#
+# If something unexpected shows up in `git status` here, the fix is to move it
+# out rather than to add a line below.
