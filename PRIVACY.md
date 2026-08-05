@@ -7,7 +7,7 @@
 
 # Privacy Policy
 
-**LitRank — Journal Quartiles & Research Projects**
+**LitRank for Google Scholar**
 Effective 1 August 2026 · Applies to the Chrome, Edge and Firefox extensions
 
 ---

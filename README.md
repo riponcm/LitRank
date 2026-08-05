@@ -14,13 +14,13 @@ Works offline. No account. No tracking.
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cfbmlenlhndbgojgikgoneolkbiajoab?label=Chrome&logo=googlechrome&logoColor=white&color=1a73e8)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
 [![Users](https://img.shields.io/chrome-web-store/users/cfbmlenlhndbgojgikgoneolkbiajoab?label=users&color=184f95)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
 [![Rating](https://img.shields.io/chrome-web-store/rating/cfbmlenlhndbgojgikgoneolkbiajoab?label=rating&color=184f95)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
-[![Firefox Add-on](https://img.shields.io/amo/v/litrank-journal-quartiles?label=Firefox&logo=firefoxbrowser&logoColor=white&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank-journal-quartiles/)
-[![Firefox users](https://img.shields.io/amo/users/litrank-journal-quartiles?label=users&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank-journal-quartiles/)
+[![Firefox Add-on](https://img.shields.io/amo/v/litrank-google-scholar?label=Firefox&logo=firefoxbrowser&logoColor=white&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)
+[![Firefox users](https://img.shields.io/amo/users/litrank-google-scholar?label=users&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)
 [![Edge](https://img.shields.io/badge/Edge-in%20review-0078D7?logo=microsoftedge&logoColor=white)](https://github.com/riponcm/LitRank)
 [![Price](https://img.shields.io/badge/price-free%20forever-184f95)](https://github.com/riponcm/LitRank)
 [![Stars](https://img.shields.io/github/stars/riponcm/LitRank?style=flat&logo=github&label=star&color=184f95)](https://github.com/riponcm/LitRank/stargazers)
 
-### [**⬇ Chrome**](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab) &nbsp;&nbsp;·&nbsp;&nbsp; [**⬇ Firefox**](https://addons.mozilla.org/firefox/addon/litrank-journal-quartiles/)
+### [**⬇ Chrome**](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab) &nbsp;&nbsp;·&nbsp;&nbsp; [**⬇ Firefox**](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)
 
 Edge is still in review &nbsp;·&nbsp;
 [Watch for the release](https://github.com/riponcm/LitRank/subscription) &nbsp;·&nbsp;
@@ -38,7 +38,7 @@ Edge is still in review &nbsp;·&nbsp;
 
 ## ✅ &nbsp;Out now on Chrome and Firefox
 
-### **[Install for Chrome →](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)** &nbsp; · &nbsp; **[Install for Firefox →](https://addons.mozilla.org/firefox/addon/litrank-journal-quartiles/)**
+### **[Install for Chrome →](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)** &nbsp; · &nbsp; **[Install for Firefox →](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)**
 
 Both approved and available. **Edge** is packaged and still in review — it runs on
 its own schedule. This page will link it the moment it lands.
@@ -79,19 +79,35 @@ Everything it needs ships **inside the extension**, so nothing about what you re
 
 ---
 
+## Watch it work
+
+<div align="center">
+
+[<img src="https://img.youtube.com/vi/i3l-WhUpJoM/maxresdefault.jpg" alt="Watch the LitRank demo on YouTube — quartile badges appearing on Google Scholar results, filtering by impact, and saving papers into a project" width="80%">](https://www.youtube.com/watch?v=i3l-WhUpJoM)
+
+**[▶ Watch the demo](https://www.youtube.com/watch?v=i3l-WhUpJoM)** — two minutes, no narration required.
+
+</div>
+
+---
+
 ## Screenshots
 
 ### Journal quartiles on every search result
 
-<img src="screenshots/01-results.png" alt="Google Scholar search results for 'convolutional neural network image classification', each result carrying a Q1 quartile badge, SJR score, citations per year, open-access and PDF indicators, and a country flag, with the LitRank filter bar above the page" width="100%">
+<img src="screenshots/01-results.png" alt="Google Scholar search results for 'convolutional neural network image classification', each result carrying a Q1 quartile badge, the quartile it moved from, citations per year, how the paper compares to its journal's average, open-access and PDF indicators, and a country flag, with the LitRank filter bar above the page" width="100%">
 
-Every result carries its quartile, SJR score and citation rate. The bar above the page filters by quartile, document type, citation count and open access — and the bookmark beside each title saves it to a project.
+Every result carries its quartile, its citation rate, whether the journal has moved up or down a quartile, and how the paper compares to others in the same journal. The **+** opens the rest — SJR, subject breadth, h-index, first indexed year — once, for the whole page.
+
+The bar above the page filters by quartile, document type, citation count and open access, and the bookmark beside each title saves it to a project.
 
 ### A quality profile for any author
 
-<img src="screenshots/02-profile.png" alt="A Google Scholar author profile with LitRank badges on each publication and a quartile distribution bar showing 12 in Q1, 3 in Q2, 1 in Q3 and 4 unranked across 20 loaded publications" width="100%">
+<img src="screenshots/02-profile.png" alt="A Google Scholar author profile with LitRank badges on each publication, and a research profile card in the sidebar showing 96 papers in Q1, median SJR 2.41, 45 percent open access, recent research topics, a then-and-now quartile comparison, the journals published in, and the most cited papers" width="100%">
 
-On an author profile, the same badges appear per publication, plus a distribution of the loaded publications across quartiles and their median SJR. One square per paper — so you are counting, not estimating.
+The same badges appear on each publication — and the sidebar gains a **research profile card**. Press it and it reads every publication on the profile, not just the first page, then reports the quartile mix, median SJR, open-access share, what the author has been working on recently, how that compares with their earlier work, where they publish, how often they are first author, output per year, and their ten most cited papers.
+
+It reads the profile the way you would, one page at a time. Nothing is sent anywhere.
 
 ### Projects, not a single flat reading list
 
