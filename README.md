@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="LitRank — journal quartiles and research projects for Google Scholar" width="100%">
+<img src="assets/header.svg" alt="LitRank — journal quartiles and research folders for Google Scholar" width="100%">
 
 <br>
 
-**See journal quality on Google Scholar, and turn a search into a research project.**
+**See journal quality on Google Scholar, and turn a search into an organised library.**
 
-Quartile badges, SJR metrics and open-access flags on every result — then save papers into projects and export BibTeX.
+Quartile badges, SJR metrics and open-access flags on every result — then save papers into folders and export BibTeX.
 Works offline. No account. No tracking.
 
 <br>
@@ -49,9 +49,9 @@ documentation, support and issue tracker.*
 
 ## What is LitRank?
 
-LitRank is a free browser extension that adds **journal quality information to Google Scholar search results** and lets you organise papers into research projects.
+LitRank is a free browser extension that adds **journal quality information to Google Scholar search results** and lets you organise papers into folders.
 
-Every result gets a badge showing its **SJR quartile (Q1–Q4)**, the journal's SJR score, open-access status, country of publication, and citations per year. You can then filter the page by quartile, document type, citation count or PDF availability — and save anything worth keeping into a named project with BibTeX, CSV and PDF export.
+Every result gets a badge showing its **SJR quartile (Q1–Q4)**, the journal's SJR score, open-access status, country of publication, and citations per year. You can then filter the page by quartile, document type, citation count or PDF availability — and save anything worth keeping into a named folder with BibTeX, CSV and PDF export.
 
 Everything it needs ships **inside the extension**, so nothing about what you read is ever sent anywhere.
 
@@ -61,7 +61,7 @@ Everything it needs ships **inside the extension**, so nothing about what you re
 
 <div align="center">
 
-[<img src="https://img.youtube.com/vi/i3l-WhUpJoM/maxresdefault.jpg" alt="Watch the LitRank demo on YouTube — quartile badges appearing on Google Scholar results, filtering by impact, and saving papers into a project" width="80%">](https://www.youtube.com/watch?v=i3l-WhUpJoM)
+[<img src="https://img.youtube.com/vi/i3l-WhUpJoM/maxresdefault.jpg" alt="Watch the LitRank demo on YouTube — quartile badges appearing on Google Scholar results, filtering by impact, and saving papers into a folder" width="80%">](https://www.youtube.com/watch?v=i3l-WhUpJoM)
 
 **[▶ Watch the demo](https://www.youtube.com/watch?v=i3l-WhUpJoM)** — two minutes, no narration required.
 
@@ -77,7 +77,7 @@ Everything it needs ships **inside the extension**, so nothing about what you re
 
 Every result carries its quartile, its citation rate, whether the journal has moved up or down a quartile, and how the paper compares to others in the same journal. The **+** opens the rest — SJR, subject breadth, h-index, first indexed year — once, for the whole page.
 
-The bar above the page filters by quartile, document type, citation count and open access, and the bookmark beside each title saves it to a project.
+The bar above the page filters by quartile, document type, citation count and open access, and the bookmark beside each title saves it to a folder.
 
 ### A quality profile for any author
 
@@ -87,17 +87,21 @@ The same badges appear on each publication — and the sidebar gains a **researc
 
 It reads the profile the way you would, one page at a time. Nothing is sent anywhere.
 
-### Projects, not a single flat reading list
+### A dashboard that opens on your library
 
-<img src="screenshots/03-projects.png" alt="The LitRank dashboard showing eleven research project cards, each with an icon, colour, paper count, quartile distribution bar and median SJR, beside a sidebar with the version, the Matily.org credit and links to support and issue reporting" width="100%">
+<img src="screenshots/03-projects.png" alt="The LitRank dashboard: four figures across the top reading 50 papers saved, 91% in Q1, median SJR 1.47 and 12% open access, three charts showing the quartile mix, publication years and most-read journals, and below them a grid of coloured folder cards each with a paper count, quartile bar, median SJR and when it was last updated" width="100%">
 
-Each project has its own icon, colour and description, and shows at a glance how many papers it holds, how they are distributed across quartiles, and their median SJR. A paper can belong to several projects at once.
+Four figures and three charts, all of it worked out from papers you have already saved — how much you keep, how much of it is Q1, the median SJR, how much you can read for free, and where your reading actually comes from.
 
-### Everything about one project on one screen
+The Q1 share is measured against **ranked** papers, not everything saved. An unranked venue means the journal could not be identified, not that the paper is poor, and counting those against you would be a quiet insult.
 
-<img src="screenshots/04-project-detail.png" alt="A LitRank project detail view showing 12 papers, 11 in Q1, median SJR 1.94, 8 with PDF, a publication-year histogram, a top-venues chart, and the saved paper list with per-paper badges" width="100%">
+### Folders, not one flat reading list
 
-Quartile mix, median SJR, a publication-year histogram and the venues you are actually citing — then export the whole project as BibTeX, CSV or JSON, fetch missing metadata from Crossref, or sync it to a folder.
+<img src="screenshots/04-project-detail.png" alt="A LitRank folder opened: 12 papers, 11 in Q1, median SJR 1.94, 8 with a PDF, a publication-year histogram, a top-venues chart, and the saved papers listed with their own badges" width="100%">
+
+Each folder carries its own colour, and the grid sorts by what you saved to most recently rather than by what you made first. Open one and you get its quartile mix, median SJR, a publication-year histogram and the venues you are actually citing — then export the lot as BibTeX, CSV or JSON, fetch missing metadata from Crossref, or sync it to a folder on disk.
+
+A paper can sit in several folders at once. **My Research** is there from the first launch, so your first save always has somewhere to go.
 
 <sub>The interface in every shot is the real extension. The papers and authors are invented — a reading list is personal, and the journals they sit in are real, so the quartiles and SJR figures shown are the genuine values LitRank looks up for those venues.</sub>
 
@@ -126,11 +130,12 @@ Quartile mix, median SJR, a publication-year histogram and the venues you are ac
 | **Hide already-saved** | On a second pass, see only what you have not triaged |
 | **Sort by journal impact or citations** | Reorder without losing Scholar's own order |
 
-### Research projects
+### Folders
 
-- Save any result into a **named project** with its own icon, colour and description
-- One paper can belong to **several projects** — no duplicates, no split metadata
-- Per-project **quartile distribution**, median SJR, publication-year histogram and top venues
+- Save any result into a **named folder** with its own icon, colour and description
+- One paper can belong to **several folders** — no duplicates, no split metadata
+- Per-folder **quartile distribution**, median SJR, publication-year histogram and top venues
+- A **library summary** across everything you have saved, with a card you can share as an image — drawn on your machine, never uploaded
 - Export **BibTeX**, **CSV** or **JSON**
 - **Fetch full metadata** from Crossref to fill in volume, issue and pages
 - **Sync to a folder** on your computer, or batch-download available PDFs
@@ -194,7 +199,7 @@ No. Everything is stored locally in your browser. You can export it to a folder 
 
 ### Can I use it with Zotero or Mendeley?
 
-Yes — export BibTeX from any project and import it. Records include a DOI wherever one could be recovered, so your reference manager can complete anything Scholar did not show.
+Yes — export BibTeX from any folder and import it. Records include a DOI wherever one could be recovered, so your reference manager can complete anything Scholar did not show.
 
 ### Is LitRank affiliated with Google?
 
