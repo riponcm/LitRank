@@ -16,32 +16,21 @@ Works offline. No account. No tracking.
 [![Rating](https://img.shields.io/chrome-web-store/rating/cfbmlenlhndbgojgikgoneolkbiajoab?label=rating&color=184f95)](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)
 [![Firefox Add-on](https://img.shields.io/amo/v/litrank-google-scholar?label=Firefox&logo=firefoxbrowser&logoColor=white&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)
 [![Firefox users](https://img.shields.io/amo/users/litrank-google-scholar?label=users&color=ff7139)](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)
-[![Edge](https://img.shields.io/badge/Edge-in%20review-0078D7?logo=microsoftedge&logoColor=white)](https://github.com/riponcm/LitRank)
+[![Edge](https://img.shields.io/badge/Edge-available-0078D7?logo=microsoftedge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/hcemdmhedfpjdjonnfeioodifjfciidm)
 [![Price](https://img.shields.io/badge/price-free%20forever-184f95)](https://github.com/riponcm/LitRank)
 [![Stars](https://img.shields.io/github/stars/riponcm/LitRank?style=flat&logo=github&label=star&color=184f95)](https://github.com/riponcm/LitRank/stargazers)
 
-### [**⬇ Chrome**](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab) &nbsp;&nbsp;·&nbsp;&nbsp; [**⬇ Firefox**](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)
+### [**⬇ Chrome**](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab) &nbsp;·&nbsp; [**⬇ Firefox**](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/) &nbsp;·&nbsp; [**⬇ Edge**](https://microsoftedge.microsoft.com/addons/detail/hcemdmhedfpjdjonnfeioodifjfciidm)
 
-Edge is still in review &nbsp;·&nbsp;
-[Watch for the release](https://github.com/riponcm/LitRank/subscription) &nbsp;·&nbsp;
+Free forever &nbsp;·&nbsp;
+[⭐ Star the repo](https://github.com/riponcm/LitRank) &nbsp;·&nbsp;
 [Report an issue](https://github.com/riponcm/LitRank/issues/new)
 
 </div>
 
-<!-- ============================================================ PRE-LAUNCH
-     A rolling launch state: Chrome and Firefox are live, Edge is not. Update
-     the heading as each store lands, and delete this whole block once all
-     three are out. Nothing else in this file depends on it.
-============================================================================ -->
-
 <div align="center">
 
-## ✅ &nbsp;Out now on Chrome and Firefox
-
-### **[Install for Chrome →](https://chromewebstore.google.com/detail/cfbmlenlhndbgojgikgoneolkbiajoab)** &nbsp; · &nbsp; **[Install for Firefox →](https://addons.mozilla.org/firefox/addon/litrank-google-scholar/)**
-
-Both approved and available. **Edge** is packaged and still in review — it runs on
-its own schedule. This page will link it the moment it lands.
+## ✅ &nbsp;Out now on Chrome, Firefox and Edge
 
 **The extension is real, and so are the numbers.** Every quartile and impact score in
 the screenshots below was looked up from the actual ranking data the extension ships
@@ -50,22 +39,11 @@ they sit in are real, and so are their ranks.
 
 <br>
 
-### On Edge?
-
-**[👁 Watch for releases](https://github.com/riponcm/LitRank/subscription)** &nbsp;·&nbsp; **[⭐ Star the repo](https://github.com/riponcm/LitRank)**
-
-Watching with *Releases only* is one notification when the Edge version lands, and
-nothing else. Starring is what makes the store listings surface for other
-researchers — it genuinely helps.
-
-<br>
-
-*Source code follows shortly after launch, under the GPL. This repository is the
+*Source code follows shortly, under the GPL. This repository is the
 documentation, support and issue tracker.*
 
 </div>
 
-<!-- ======================================================== END PRE-LAUNCH -->
 
 ---
 
