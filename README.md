@@ -39,8 +39,7 @@ they sit in are real, and so are their ranks.
 
 <br>
 
-*Source code follows shortly, under the GPL. This repository is the
-documentation, support and issue tracker.*
+*This repository is LitRank's documentation, support and issue tracker.*
 
 </div>
 
@@ -232,7 +231,7 @@ Issues that describe a real workflow are more useful than a patch that arrives w
 
 ### If you find it useful
 
-**⭐ Star the repository, and share it with someone whose reading list is a mess.** That is not a formality — the plan is to open-source LitRank under the GPL, and visible interest is what makes it worth maintaining in the open. A link passed to a lab group does more for this project than anything else on this page.
+**⭐ Star the repository, and share it with someone whose reading list is a mess.** That is not a formality — visible interest is what makes LitRank worth maintaining. A link passed to a lab group does more for this project than anything else on this page.
 
 ### Sponsorship
 
@@ -263,9 +262,9 @@ Full licence terms for everything bundled with the extension are in the `NOTICE`
 
 The documentation in this repository is licensed **CC BY 4.0**.
 
-The LitRank extension source is not yet public. It will be released under the **GNU General Public License v3.0**.
+The LitRank extension is **free to use, all rights reserved**: install it and use it for any purpose, but do not copy, modify or redistribute it. The terms are in the `LICENSE` file shipped inside the extension. Copies of earlier versions distributed under the GNU General Public License v3.0 remain under it.
 
-Bundled third-party data keeps its own licence and is **not** covered by that grant — the terms travel with the extension in its `NOTICE` file. Some of it is non-commercial. LitRank is free and will remain free.
+Bundled third-party data keeps its own licence and is **not** covered by LitRank's — the terms travel with the extension in its `NOTICE` file. Some of it is non-commercial. LitRank is free and will remain free.
 
 ---
 
